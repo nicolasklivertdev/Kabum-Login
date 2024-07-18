@@ -1,0 +1,359 @@
+* {
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 45px 34px;
+}
+
+h1 {
+    width: 100%;
+    font-size: 56px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(255, 101, 0);
+}
+
+hr {
+    width: 214px;
+    margin: 0px 0px 24px;
+    margin-top: -10px;
+    margin-bottom: 70px;
+    border: 5px solid rgb(0, 96, 177);
+}
+
+.Email, .Senha {
+    margin-bottom: 25px;
+    border: 1px solid rgb(195, 197, 201);
+    border-radius: 10px;
+    width: 100%;
+}
+
+#email, #password {
+    background: transparent;
+    padding: 40px;
+    outline: none;
+}
+
+.Email, #email {
+    font-size: 35px;
+    width: 100%;
+}
+
+#password {
+    font-size: 35px;
+    width: 80%;
+}
+
+form {
+    display: flex;
+}
+
+svg {
+    border: none;
+}
+
+.emailicon {
+    margin-top: 39px;
+    margin-right: -6px;
+    margin-left: 49px;
+    width: 7.5%;
+    height: 99%;
+}
+
+.passicon {
+    margin-top: 39px;
+    margin-right: -6px;
+    margin-left: 49px;
+    width: 6.7%;
+    height: 99%;
+}
+
+.iconeyeclose {
+    margin-top: 39px;
+    margin-left: -6px;
+    margin-right: 49px;
+    width: 5%;
+    height: 100%;
+}
+
+.iconeyeclose:hover {
+    cursor: pointer;
+}
+
+button {
+    border-radius: 8px;
+}
+
+.Entrar {
+    margin-top: 25px;
+    padding-right: 95px;
+    width: 100%;
+    height: 130px;
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(255, 101, 0);
+}
+
+.Entrar:focus {
+    cursor: pointer;
+}
+
+.entrar {
+    margin-top: 17px;
+    margin-bottom: 4.6px;
+    margin-right: 100px;
+    width: 9.7%;
+    height: 48%;
+}
+
+span {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -87px;
+    margin-bottom: 15px;
+    margin-right: 230px;
+}
+
+.esqueceu {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 65px;
+    font-size: 35px;
+    color: rgb(127, 133, 141);
+}
+
+footer {
+    padding-top: 63px;
+    border-top: 1px solid rgb(127, 133, 141);
+}
+
+.footersubtitle {
+    margin-bottom: 45px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    color: rgb(127, 133, 141);
+}
+
+.Google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.8rem;
+    margin-bottom: 83px;
+    padding: 30px 0px;
+    border: 1px solid rgb(226, 14, 14);
+    border-radius: 14px;
+    font-size: 50px;
+    font-weight: 600;
+    width: 100%;
+    background-color: white;
+    color: rgb(226, 14, 14);
+}
+
+.Google:focus {
+    cursor: pointer;
+}
+
+.google {
+    width: 6.8%;
+    height: 100%;
+}
+
+.Cadastro {
+    font-size: 40px;
+}
+
+.cadastro {
+    margin-bottom: 45px;
+    padding-left: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(255, 139, 31);
+}
+
+#Kabumimg {
+    margin: 0px 55px;
+}
+
+#Kabumimg:focus {
+    cursor: pointer;
+}
+
+@media (min-width: 1023px) and (max-width: 1920px) {
+    body {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        margin: auto;
+        padding: 0px auto;
+        gap: 4.5rem;
+    }
+
+    .content {
+        padding: 15px 0px;
+        padding-right: 0px;
+        max-width: 384px;
+        width: 100%;
+    }
+
+    h1 {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    hr {
+        width: 76px;
+        margin: 0px 0px 24px;
+        margin-top: -4px;
+        margin-bottom: 70px;
+        border: 2px solid rgb(0, 96, 177);
+    }
+
+    .Email {
+        margin-top: -45px;
+    }
+
+    .Senha {
+        margin-top: -17px;
+        width: 100%;
+    }
+
+    .Email, .Senha {
+        border-radius: 5px;
+        border-color: rgb(220, 222, 228);
+    }
+
+    #email, #password {
+        padding: 0px 10px;
+        padding-top: -10px;
+        padding-bottom: -10px;
+    }
+
+    .Email, #email {
+        font-size: 0.875rem;
+    }
+
+    #password {
+        font-size: 0.875rem;
+        width: 65%;
+    }
+
+    .emailicon, .passicon {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-right: 5px;
+        margin-left: 15px;
+        width: 4.8%;
+    }
+    
+    .passicon {
+        margin-top: 14px;
+    }
+    
+    .iconeyeclose {
+        margin-top: 12px;
+        margin-left: 75px;
+        margin-right: 18px;
+        width: 3.9%;
+    }
+    
+    button {
+        border-radius: 3px;
+    }
+    
+    .Entrar {
+        margin-top: -8px;
+        padding-right: 119px;
+        height: 2.85rem;
+        font-size: 1rem;
+    }
+    
+    .Entrar:hover {
+        cursor: pointer;
+    }
+    
+    .entrar {
+        margin-top: 13px;
+        margin-bottom: 7px;
+        margin-right: -50px;
+        width: 8.3%;
+    }
+    
+    span {
+        margin-top: -40px;
+        margin-bottom: 15px;
+        margin-right: 28px;
+    }
+    
+    .esqueceu {
+        margin-top: 8px;
+        margin-bottom: 1.5rem;
+        font-size: 0.75rem;
+    }
+    
+    footer {
+        padding-top: 0.9rem;
+        border-top: 1px solid rgb(209, 218, 230);
+    }
+    
+    .footersubtitle {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+    
+    .Google {
+        gap: 0.8rem;
+        margin-bottom: 2rem;
+        padding: 0px 0px;
+        border-radius: 3px;
+        font-size: 1.125rem;
+        width: 100%;
+        height: 3rem;
+    }
+    
+    .Google:hover {
+        cursor: pointer;
+    }
+
+    .google {
+        width: 6.8%;
+        height: 48%;
+    }
+
+    .Cadastro {
+        margin-top: -4px;
+        font-size: 1rem;
+    }
+    
+    .cadastro {
+        margin-left: -5px;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+    
+    #Kabumimg {
+        margin: auto 0px;
+        width: 37rem;
+        height: 22.3125rem;
+        background-color: red;
+    }
+}
